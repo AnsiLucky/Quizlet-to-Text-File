@@ -67,5 +67,5 @@ def convert_to_text(flag=True):
                 f.write(f'{definition.text}\n')
                 f.write(f'\tAnswer: {answer.text}\n\n')
             count = count + 1
-
+//amandyk
 convert_to_text()
