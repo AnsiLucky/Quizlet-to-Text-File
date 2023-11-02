@@ -61,11 +61,11 @@ def convert_to_text(flag=True):
             if flag is True:
                 f.write(f'Question {count}\n')
                 f.write(f'{answer.text}\n')
-                f.write(f'Answer: {definition.text}\n\n')
+                f.write(f'\tAnswer: {definition.text}\n\n')
             else:
                 f.write(f'Question {count}\n')
                 f.write(f'{definition.text}\n')
-                f.write(f'Answer: {answer.text}\n\n')
+                f.write(f'\tAnswer: {answer.text}\n\n')
             count = count + 1
 
 convert_to_text()
